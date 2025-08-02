@@ -4,6 +4,15 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
+
+  <remote  name="lineageos"
+           revision="lineage-23.0"
+           fetch="https://github.com/LineageOS" />
+
+  <remote  name="pixelos"
+           revision="android-16"
+           fetch="https://github.com/pissel-os" />
+
   <default revision="refs/tags/android-16.0.0_r2"
            remote="aosp"
            sync-j="4" />
@@ -1022,4 +1031,7 @@
   </project>
   <!-- END open-source projects -->
 
+  <include name="snippets/remove.xml" />
+  <include name="snippets/lineage.xml" />
+  <include name="snippets/pixelos.xml" />
 </manifest>
