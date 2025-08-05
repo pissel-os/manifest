@@ -13,6 +13,9 @@
            revision="android-16"
            fetch="https://github.com/pissel-os" />
 
+  <remote name="gitlab" 
+           fetch="https://gitlab.com" />
+
   <default revision="refs/tags/android-16.0.0_r2"
            remote="aosp"
            sync-j="4" />

@@ -35,4 +35,12 @@
 
   <project path="vendor/lineage" name="android_vendor_lineage" remote="pixelos" />
   <project path="vendor/custom" name="android_vendor_custom" remote="pixelos" />
+
+  <!-- google/pixel apps -->
+  <project path="vendor/pixel/extract-utils" remote="gitlab" name="loonage/android_vendor_pixel_extract-utils" revision="android-16" />
+  <project path="vendor/pixel/clocks" remote="gitlab" name="loonage/proprietary_vendor_pixel_clocks" revision="android-16" />
+  <project path="vendor/pixel/gms" remote="gitlab" name="loonage/proprietary_vendor_pixel_gms" revision="android-16" />
+  <project path="vendor/pixel/gsans" remote="gitlab" name="loonage/proprietary_vendor_pixel_gsans" revision="android-16" />
+  <project path="vendor/pixel/launcher" remote="gitlab" name="loonage/proprietary_vendor_pixel_launcher" revision="android-16" />
+  <project path="vendor/pixel/themepicker" remote="gitlab" name="loonage/proprietary_vendor_pixel_themepicker" revision="android-16" />
 </manifest>
