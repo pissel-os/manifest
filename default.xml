@@ -5,6 +5,9 @@
            review="https://android-review.googlesource.com/" />
    <remote name="github"
            fetch="https://github.com" />
+  <remote  name="lineageos"
+           fetch=".."
+           revision="refs/heads/lineage-23.2" />
   <default revision="refs/tags/android-17.0.0_r1"
            remote="aosp"
            sync-j="4" />
@@ -1118,4 +1121,5 @@
   </project>
   <!-- END open-source projects -->
 
+  <include name="snippets/lineage.xml" />
 </manifest>
