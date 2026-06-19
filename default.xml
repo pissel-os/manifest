@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
+   <remote name="github"
+           fetch="https://github.com" />
   <default revision="refs/tags/android-17.0.0_r1"
            remote="aosp"
            sync-j="4" />
